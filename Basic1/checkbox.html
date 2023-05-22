@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html>
+<head>
+
+<title>Insert Data</title>
+</head>
+
+<body>
+<h1> Insert to Register </h1>
+
+
+<form name="form1" method="post" action="insert.php" >
+<fieldset>
+<legend> Registration Form </legend> 
+
+FirstName <input type="text" name="a" value="Enter firstname"/>
+<br/><br/>
+LastName <input type="text" name="b" value="Enter lastname"/>
+<br/><br/>
+
+
+
+<h3> Gender selection </h3>
+Male <input type="radio" name="gender"/> female <input type="radio" name="gender"/>
+<br/><br/>
+
+
+<h3> Subject selection </h3>
+<input type="checkbox" name="sb[]" value="php"/> PHP 
+<br/>
+<input type="checkbox" name="sb[]" value="asp"/> ASP.NET 
+<br/>
+<input type="checkbox" name="sb[]" value="html"/> HTML 
+<br/>
+<input type="checkbox" name="sb[]" value="css"/> CSS 
+<br/><br/>
+
+
+<h3> Hobbies selection </h3>
+<input type="checkbox" name="hb[]" value="tv"/> Tv 
+<br/>
+<input type="checkbox" name="hb[]" value="pc"/> Computer  
+<br/>
+<input type="checkbox" name="hb[]" value="book"/> Reading books 
+<br/>
+<input type="checkbox"  name="hb[]" value="games"/> Games 
+<br/><br/>
+<input type="submit" name="submit" value="Submit"/>
+
+</fieldset>
+
+</form>
+
+</body>
+</html>

@@ -30,3 +30,5 @@ require('@4tw/cypress-drag-drop')
 /// <reference types="@cypress/xpath" />
 
 /// <reference types="cypress-downloadfile"/>
+require('cy-verify-downloads').addCustomCommand();
+
